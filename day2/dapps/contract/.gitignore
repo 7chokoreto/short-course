@@ -4,6 +4,21 @@ node_modules
 # Env files
 .env
 
+# a Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# a solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition defzult folder for doployments against a local node
+ignition/deployments/chain-31337
+
 # Yarn
 .yarn/*
 !.yarn/releases

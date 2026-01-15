@@ -1864,6 +1864,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"contract@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "contract@workspace:."
+  dependencies:
+    "@nomicfoundation/hardhat-ignition": "npm:^0.15.0"
+    "@nomicfoundation/hardhat-ignition-viem": "npm:^0.15.0"
+    "@nomicfoundation/hardhat-network-helpers": "npm:^1.0.0"
+    "@nomicfoundation/hardhat-toolbox-viem": "npm:^4.1.0"
+    "@nomicfoundation/hardhat-verify": "npm:^2.0.0"
+    "@nomicfoundation/hardhat-viem": "npm:^2.0.0"
+    "@types/chai": "npm:^4.2.0"
+    "@types/chai-as-promised": "npm:^7.1.6"
+    "@types/mocha": "npm:>=9.1.0"
+    "@types/node": "npm:>=22.0.0"
+    chai: "npm:^4.2.0"
+    dotenv: "npm:^17.2.3"
+    global: "npm:^4.4.0"
+    hardhat: "npm:^2.14.0"
+    hardhat-gas-reporter: "npm:^2.3.0"
+    solidity-coverage: "npm:^0.8.0"
+    ts-node: "npm:>=8.0.0"
+    typescript: "npm:~5.0.4"
+    viem: "npm:^2.7.6"
+    yarn: "npm:^1.22.22"
+  languageName: unknown
+  linkType: soft
+
 "cookie@npm:^0.4.1":
   version: 0.4.2
   resolution: "cookie@npm:0.4.2"
@@ -2033,6 +2060,13 @@ __metadata:
   version: 0.1.2
   resolution: "dom-walk@npm:0.1.2"
   checksum: 10c0/4d2ad9062a9423d890f8577aa202b597a6b85f9489bdde656b9443901b8b322b289655c3affefc58ec2e41931e0828dfee0a1d2db6829a607d76def5901fc5a9
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^17.2.3":
+  version: 17.2.3
+  resolution: "dotenv@npm:17.2.3"
+  checksum: 10c0/c884403209f713214a1b64d4d1defa4934c2aa5b0002f5a670ae298a51e3c3ad3ba79dfee2f8df49f01ae74290fcd9acdb1ab1d09c7bfb42b539036108bb2ba0
   languageName: node
   linkType: hard
 
@@ -4371,32 +4405,6 @@ __metadata:
   checksum: 10c0/166c449f4bc794d47f8e337bf0ffbcfdb26c33109030aac4b6e5a33a91fa85783f2290addeb7b3c89d6d9b90c8276e719494d193129bed0a60a2d4a6fd658277
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@nomicfoundation/hardhat-ignition": "npm:^0.15.0"
-    "@nomicfoundation/hardhat-ignition-viem": "npm:^0.15.0"
-    "@nomicfoundation/hardhat-network-helpers": "npm:^1.0.0"
-    "@nomicfoundation/hardhat-toolbox-viem": "npm:^4.1.0"
-    "@nomicfoundation/hardhat-verify": "npm:^2.0.0"
-    "@nomicfoundation/hardhat-viem": "npm:^2.0.0"
-    "@types/chai": "npm:^4.2.0"
-    "@types/chai-as-promised": "npm:^7.1.6"
-    "@types/mocha": "npm:>=9.1.0"
-    "@types/node": "npm:>=22.0.0"
-    chai: "npm:^4.2.0"
-    global: "npm:^4.4.0"
-    hardhat: "npm:^2.14.0"
-    hardhat-gas-reporter: "npm:^2.3.0"
-    solidity-coverage: "npm:^0.8.0"
-    ts-node: "npm:>=8.0.0"
-    typescript: "npm:~5.0.4"
-    viem: "npm:^2.7.6"
-    yarn: "npm:^1.22.22"
-  languageName: unknown
-  linkType: soft
 
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
